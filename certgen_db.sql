@@ -3,7 +3,6 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 01, 2021 at 12:06 PM
 -- Server version: 10.4.18-MariaDB-1:10.4.18+maria~bionic
 -- PHP Version: 7.4.16
 
