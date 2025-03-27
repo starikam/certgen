@@ -1,0 +1,135 @@
+import:
+   path: /api/task/add
+   controller: App\Controller\ImportController::import
+
+reissuance:
+   path: /api/task/reissuance/{id}
+   controller: App\Controller\ImportController::reissuance
+
+importLetter:
+   path: /api/task-letter/add
+   controller: App\Controller\ImportController::importLetter
+
+search:
+   path: /api/search
+   controller: App\Controller\ImportController::search
+
+searchLetter:
+   path: /api/search-letter
+   controller: App\Controller\ImportController::searchLetter
+
+create:
+   path: /api/cert/create
+   controller: App\Controller\ImportController::create
+
+createLetter:
+   path: /api/letter/create
+   controller: App\Controller\ImportController::createLetter
+
+certCheck:
+   path: /api/cert/{id}
+   controller: App\Controller\ImportController::checkCert
+
+checkLetter:
+   path: /api/letter/{id}
+   controller: App\Controller\ImportController::checkLetter
+
+certRemove:
+   path: /api/cert/{id}/remove
+   controller: App\Controller\ImportController::removeCert
+
+letterRemove:
+   path: /api/letter/{id}/remove
+   controller: App\Controller\ImportController::removeLetter
+
+createTemplate:
+   path: /api/template/create
+   controller: App\Controller\ImportController::createTemplate
+
+saveTemplate:
+   path: /api/template/{id}/save
+   controller: App\Controller\ImportController::saveTemplate
+
+removeTemplate:
+   path: /api/template/{id}/remove
+   controller: App\Controller\ImportController::removeTemplate
+
+createCourse:
+   path: /api/course/create
+   controller: App\Controller\ImportController::createCourse
+
+removeCourse:
+   path: /api/course/{id}/remove
+   controller: App\Controller\ImportController::removeCourse
+
+saveCourse:
+   path: /api/course/{id}/save
+   controller: App\Controller\ImportController::saveCourse
+
+createRegion:
+   path: /api/region/create
+   controller: App\Controller\ImportController::createRegion
+
+removeRegion:
+   path: /api/region/{id}/remove
+   controller: App\Controller\ImportController::removeRegion
+
+saveRegion:
+   path: /api/region/{id}/save
+   controller: App\Controller\ImportController::saveRegion
+
+createSource:
+   path: /api/source/create
+   controller: App\Controller\ImportController::createSource
+
+removeSource:
+   path: /api/source/{id}/remove
+   controller: App\Controller\ImportController::removeSource
+
+saveSource:
+   path: /api/source/{id}/save
+   controller: App\Controller\ImportController::saveSource
+
+createHome:
+   path: /api/home/create
+   controller: App\Controller\ImportController::createHome
+
+removeHome:
+   path: /api/home/{id}/remove
+   controller: App\Controller\ImportController::removeHome
+
+saveHome:
+   path: /api/home/{id}/save
+   controller: App\Controller\ImportController::saveHome
+
+meta:
+   path: /api/meta
+   controller: App\Controller\ImportController::getMeta
+
+getTask:
+   path: /api/tasks/{id}
+   controller: App\Controller\ImportController::getTask
+
+removeTask:
+   path: /api/tasks/{id}/remove
+   controller: App\Controller\ImportController::removeTask
+
+getTasks:
+   path: /api/tasks
+   controller: App\Controller\ImportController::getTasks
+
+getCompletedCertsCount:
+   path: /api/tasks/{id}/completed
+   controller: App\Controller\ImportController::getCompletedCertsCount
+
+getReport:
+   path: /api/report
+   controller: App\Controller\ImportController::getReport
+
+getCertsWithoutTask:
+   path: /api/single-certs
+   controller: App\Controller\ImportController::getSingleCerts
+
+getLettersWithoutTask:
+   path: /api/single-letter
+   controller: App\Controller\ImportController::getSingleLetters
